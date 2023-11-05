@@ -109,6 +109,10 @@ class _BMICalculatorPageState extends State<BMICalculatorPage> {
                       onChanged: (value) {
                         weight = double.parse(value);
                       },
+                      decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 226, 212, 212),
+                      )
                     ),
                   ),
                   Padding(
@@ -126,6 +130,10 @@ class _BMICalculatorPageState extends State<BMICalculatorPage> {
                       onChanged: (value) {
                         height = double.parse(value);
                       },
+                      decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 226, 212, 212),
+                      )
                     ),
                   ),
                   Padding(
@@ -143,6 +151,10 @@ class _BMICalculatorPageState extends State<BMICalculatorPage> {
                       onChanged: (value) {
                         age = int.parse(value);
                       },
+                      decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 226, 212, 212),
+                      )
                     ),
                   ),
                   Padding(
